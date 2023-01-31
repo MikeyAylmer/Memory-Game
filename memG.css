@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Press+Start+2P&display=swap');
+
+html{
+    background: 
+     linear-gradient(217deg, rgba(0, 225, 255, 0.877), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(0, 255, 200, 0.829), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(0, 0, 255, 0.8), rgba(0,0,255,0) 70.71%);
+    font-family: 'Fredoka One', cursive;
+}
+
+header h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Press Start 2P', cursive;
+    text-decoration: underline dodgerblue;
+    color: #CC5500;
+}
+
+header p{
+    text-align: center;
+    font-size: larger;
+   color: yellowgreen ;
+   
+}
+
+header{
+    border: 2px solid black;
+    background: url('https://images.unsplash.com/photo-1618067328091-d0794daec04c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDc4fGJvOGpRS1RhRTBZfHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
+    background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+.controls{
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+    cursor: pointer;
+  
+    }
+    
+    .card.done{
+        cursor: default;
+    }
+    
+    .card.done:hover {
+        box-shadow: none;
+    }
+    
+    .card:hover{
+        box-shadow: inset 0px 0px 0px 1px black;
+        box-sizing: border-box;
+    }
+
+
+    .game{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #eee;
+    }
+
+    button{
+        cursor: pointer;
+        font-family: 'Fredoka One', cursive;
+        background-color: #d2042d ;
+    }
+
+    .disabled{
+        color: #757575;
+    }
+
+   
+
+    .red{
+        background-color: red;
+    }
+    .limegreen{
+        background-color: limegreen;
+    }
+    .dodgerblue{
+        background-color:dodgerblue;
+    }
+    .goldenrod{
+        background-color: goldenrod;
+    }
+    .indigo{
+        background-color:indigo;
+    }
+    .olive{
+        background-color: olive;
+    }
+    .salmon{
+        background-color: salmon;
+    }
+    .darkcyan{
+        background-color: darkcyan;
+    }
+
+    .pink{
+        background-color: #f0a;
+    }
+
+    .navy{
+        background-color: #2910d7;
+    }
+
+    .color-hidden{
+        background-color: #757575;
+    }
